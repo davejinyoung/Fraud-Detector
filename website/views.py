@@ -12,9 +12,11 @@ def home():
 def face():
     return render_template("face.html", text="TESTING")
 
+
 @views.route('/craig')
 def craig():
     return render_template("craig.html", text="TESTING")
+
 
 @views.route('/about')
 def about():
