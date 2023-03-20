@@ -3,6 +3,10 @@
 <form method="POST">
     <h3 align="center" style="position:relative; top:50px;">Enter Facebook Marketplace Listing Link</h3>
     <div class="mb-3" style="position:relative; top:65px;">
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Link" style="background-color: #D3D3D3;"/>
+        <label for="link">Facebook Marketplace Link</label>
+        <input type="url" class="form-control" id="link" name="link" placeholder="Enter Link"
+             style="background-color: #D3D3D3;"/>
+        <button type="submit" class="btn btn-dark">Submit</button>
     </div>
+</form>
 {% endblock %}

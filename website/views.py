@@ -8,12 +8,12 @@ def home():
     return render_template("base.html", text="TESTING")
 
 
-@views.route('/fb')
+@views.route('/fb', methods=['GET', 'POST'])
 def face():
     return render_template("face.html", text="TESTING")
 
 
-@views.route('/craig')
+@views.route('/craig', methods=['GET', 'POST'])
 def craig():
     return render_template("craig.html", text="TESTING")
 
